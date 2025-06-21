@@ -1,0 +1,93 @@
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#fileInput {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#upld_btn {
+  background-color: black;
+}
+.form-control {
+  width: 40%;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+}
+
+#fileInput {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button-div,
+.table-div {
+  width: 10%;
+}
+
+.table-responsive {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table>:not(caption)>*>* {
+  background-color: #45a049;
+}
